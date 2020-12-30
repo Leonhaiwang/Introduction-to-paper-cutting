@@ -3,7 +3,7 @@
     <div class="wraper">
       <div class="innerImg">
         <div class="innerTop">
-          <img src="../assets/product/01.png" alt />
+          <img src="@/assets/product/01.png" alt />
         </div>
         <div class="innerBottm">
           <div class="userimg">
@@ -23,7 +23,7 @@
       </div>
       <div class="innerImg">
         <div class="innerTop">
-          <img src="../assets/product/04.png" alt />
+          <img src="@/assets/product/04.png" alt />
         </div>
         <div class="innerBottm">
           <div class="userimg">
@@ -43,7 +43,7 @@
       </div>
       <div class="innerImg">
         <div class="innerTop">
-          <img src="../assets/product/03.jpg" alt />
+          <img src="@/assets/product/03.jpg" alt />
         </div>
         <div class="innerBottm">
           <div class="userimg">
@@ -63,7 +63,7 @@
       </div>
       <div class="innerImg">
         <div class="innerTop">
-          <img src="../assets/product/02.png" alt />
+          <img src="@/assets/product/02.png" alt />
         </div>
         <div class="innerBottm">
           <div class="userimg">
@@ -83,7 +83,7 @@
       </div>
       <div class="innerImg">
         <div class="innerTop">
-          <img src="../assets/product/03.jpg" alt />
+          <img src="@/assets/product/03.jpg" alt />
         </div>
         <div class="innerBottm">
           <div class="userimg">
@@ -102,7 +102,7 @@
         </div>
       </div><div class="innerImg">
         <div class="innerTop">
-          <img src="../assets/product/04.png" alt />
+          <img src="@/assets/product/04.png" alt />
         </div>
         <div class="innerBottm">
           <div class="userimg">
@@ -122,7 +122,7 @@
       </div>
       <div class="innerImg">
         <div class="innerTop">
-          <img src="../assets/product/03.jpg" alt />
+          <img src="@/assets/product/03.jpg" alt />
         </div>
         <div class="innerBottm">
           <div class="userimg">
@@ -142,7 +142,7 @@
       </div>
       <div class="innerImg">
         <div class="innerTop">
-          <img src="../assets/product/02.png" alt />
+          <img src="@/assets/product/02.png" alt />
         </div>
         <div class="innerBottm">
           <div class="userimg">

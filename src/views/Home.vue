@@ -7,7 +7,7 @@
     </el-carousel>
     <Button></Button>
     <Product></Product>
-
+  
   </div>
 </template>
 
