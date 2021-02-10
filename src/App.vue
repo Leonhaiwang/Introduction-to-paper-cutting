@@ -2,6 +2,7 @@
   <div id="app">
       <Nav></Nav>
       <Home></Home>
+      
   </div>
 </template>
 <script>

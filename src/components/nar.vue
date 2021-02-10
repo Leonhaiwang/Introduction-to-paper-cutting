@@ -1,12 +1,9 @@
 <template >
   <div class="nav">
     <div class="topBar">
-     
       <el-menu
-      
         class="el-menu-demo"
         mode="horizontal"
-        
         background-color="#e6e6e600"
         text-color="#fff"
         active-text-color="#409EFF"
@@ -29,22 +26,23 @@ export default {
     return {};
   },
   methods: {
-    limie() {}
+    limie() {
+      alert("11");
+    }
   }
 };
 </script>
 <style>
-
-
 .topBar {
+  position: sticky;
   width: 100%;
   height: 60px;
   background-image: url(../assets/topbarimage.jpg);
   background-size: 100% 100%;
+  background-origin: left top;
   line-height: 60px;
   color: seashell;
   padding-left: 300px;
- 
 }
 .loginBar {
   position: relative;

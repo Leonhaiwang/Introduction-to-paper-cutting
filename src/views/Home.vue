@@ -7,7 +7,7 @@
     </el-carousel>
     <Button></Button>
     <Product></Product>
-  
+
   </div>
 </template>
 
@@ -24,7 +24,7 @@ export default {
         { url: require("../assets/swiper02.jpg") }
       ]
     };
-  },
+  },    
   components: {
     Product,
     Button
@@ -32,6 +32,7 @@ export default {
 };
 </script>
 <style scoped>
+
 
 .el-carousel__item h3 {
   color: #475669;
