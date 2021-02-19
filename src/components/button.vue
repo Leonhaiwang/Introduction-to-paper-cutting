@@ -5,10 +5,9 @@
       <el-button plain>全部</el-button>
       <el-button type="success" plain>民俗信仰</el-button>
       <el-button type="warning" plain>岁时节令</el-button>
-      <!-- <el-button type="info"  plain>神话传说</el-button> -->
+      <el-button type="info"  plain>神话传说</el-button>
       <el-button type="danger" class="danger" round>上传作品</el-button>
     </div>
-
   </div>
 </template>
 <script>
