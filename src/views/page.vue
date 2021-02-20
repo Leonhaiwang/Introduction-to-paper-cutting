@@ -2,13 +2,19 @@
   <div class="wrap">
     <div class="w-middle">
       <div class="currentPosition">
-        当前位置: <a href="index.html">首页</a> >
-        <a href="animal01.html">神话传说</a> > <a href="">炎帝</a>
+        当前位置: <a href="">首页</a> > <a href="">神话传说</a> >
+        <a href="">炎帝</a>
       </div>
       <div class="page">
         <div class="article-tittle">
           <p>中阳剪纸文化之旅</p>
-          <p>作者：罗梦瑶 &nbsp; 字数:1013</p>
+          <br />
+
+          <p class="pppp">
+            <span>作者：席晨阳 &nbsp; 字数:1013 </span>
+            <span>创建时间：2021年2月19日</span>
+          </p>
+          <br />
 
           <div class="page-content">
             <img src="../assets/product/01.png" alt="" />
@@ -24,6 +30,7 @@
               第二类主要表现人们在不同岁时节令和人生礼仪中的活动情景，形象地反映出中阳地区农民生产生活的习俗。
               第三类是以剪纸纹样记录了流传于民间的古老神话、传说和故事，并通过这些剪纸反映了中阳劳动人民朴素的道德观念、纯真的生活情趣和幽默感。
             </p>
+            
           </div>
         </div>
       </div>
@@ -56,7 +63,10 @@ body {
   width: 800px;
   margin: auto;
 }
-
+.pppp {
+  display: flex;
+  justify-content: space-between;
+}
 .wrap .w-middle .currentPosition {
   color: black;
   padding-top: 20px;
@@ -77,7 +87,9 @@ body {
   font-size: 30px;
   font-weight: bolder;
 }
-
+.article-tittle{
+  text-align: center;
+}
 .wrap .w-middle .page .article-tittle > p:last-of-type {
   font-size: 5px;
   color: rgb(153, 166, 196);
