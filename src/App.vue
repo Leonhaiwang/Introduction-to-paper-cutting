@@ -1,10 +1,10 @@
 <template>
   <div id="app">
-      <Nav></Nav>
+      <!-- <Nav></Nav> -->
       <!-- <Home></Home> -->
       <!-- router-view -->
       <router-view></router-view>
-      <ButtomBar class = ""></ButtomBar>
+      <!-- <ButtomBar class = ""></ButtomBar> -->
   </div>
 </template>
 <script>
@@ -18,12 +18,11 @@ export default {
   },
   data() {
     return {
-      
     }
   },
+  
 }
 </script>
 <style>
-
 
 </style>
