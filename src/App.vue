@@ -1,20 +1,19 @@
 <template>
   <div id="app">
-      <!-- <Nav></Nav> -->
-      <!-- <Home></Home> -->
-      <!-- router-view -->
-      <router-view></router-view>
-      <!-- <ButtomBar class = ""></ButtomBar> -->
+      <Nav></Nav>
+      <router-view class = "middle"></router-view>
+      <BottomBar class = "bottomBar"></BottomBar>
   </div>
 </template>
 <script>
 import Nav from './components/nar'
 import Home from './views/Home'
-import ButtomBar from "./components/bottomBar"
+import BottomBar from "./components/bottomBar"
 export default {
   components:{
     Nav,
-    Home
+    Home,
+    BottomBar
   },
   data() {
     return {
@@ -24,5 +23,11 @@ export default {
 }
 </script>
 <style>
-
+  .bottomBar{
+    position: relative;
+    bottom: 0px;
+  }
+  .middle{
+    padding-top: 60px;
+  }
 </style>

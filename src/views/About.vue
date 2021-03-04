@@ -1,8 +1,8 @@
 <template>
   <div class="about">
+    <span class="p">总数组:</span>
     <div class="innerHtml">
-      <span class="p">总数组:</span>
-      {{ objArr }}
+      <p v-for="(item, i) in objArr" :key="i">{{ i + 1 }}====>{{ item }}</p>
     </div>
     <div class="innerHtml">
       <span class="p">当前值:</span>
@@ -12,8 +12,8 @@
       <span class="p">当前索引:</span>
       {{ currentIndex }}
     </div>
-    <el-button type="success" plain round @click="back"> 《 </el-button>
-    <el-button type="danger" plain round @click="go">》</el-button>
+    <el-button type="success" plain round @click="back"> &lt; </el-button>
+    <el-button type="danger" plain round @click="go">></el-button>
     <el-input class="input" v-model="input" placeholder="请输入内容"></el-input>
     <el-button plain round @click="add">新增</el-button>
   </div>
@@ -35,6 +35,7 @@ export default {
     onload() {
       this.currentVal = this.objArr[this.objArr.length - 1];
       this.currentIndex = this.objArr.length;
+      console.log(this.obj.name);
     },
     go() {
       if (this.currentIndex === this.objArr.length) {
@@ -74,7 +75,6 @@ export default {
           this.objArr.length - this.currentIndex,
           this.input
         );
-        // this.objArr[this.currentIndex] = this.input
         this.currentIndex++;
         this.currentVal = this.objArr[this.currentIndex - 1];
       }
@@ -83,7 +83,8 @@ export default {
 };
 </script>
 <style scoped>
-.innerHtml{
+
+.innerHtml {
   font-size: 22px;
   margin-bottom: 30px;
 }

@@ -24,6 +24,9 @@
         </div>
       </div>
     </div>
+    <div class="bottomnews">
+
+    </div>
   </div>
 </template>
 <script>
@@ -56,6 +59,9 @@ export default {
 };
 </script>
 <style scoped>
+.bottomnews{
+  height: 100px   ;
+}
 .detail {
   color: #fff;
   text-align: left;

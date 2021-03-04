@@ -1,12 +1,10 @@
 <template>
-  <div>
-    ssssssssssssssssssssssss
+  <div class="bottomBar">
+    
   </div>
 </template>
 <script>
-export default {
-  
-}
+export default {};
 </script>
 <style scoped>
 

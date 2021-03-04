@@ -5,22 +5,31 @@ import Home from '../views/Home.vue'
 Vue.use(VueRouter)
 
 const routes = [
-  // {
-  //   path: '/',
-  //   name: 'Home',
-  //   component: Home
-  // },
   {
     path: '/',
+    name: 'Home',
+    component: Home,
+    
+  },
+  {
+    path: '/about',
     name: 'About',
     component: () => import('../views/About.vue')
   },
   {
     path: '/page',
     component: () => import('../views/page.vue')
-  },{
+  },
+  {
     path: '/news',
     component: () => import('../views/news.vue')
+  },
+  {
+    path: '/register',
+    component: () => import('../views/register.vue')
+  },{
+    path: '/login',
+    component: () =>  import('../views/login.vue')
   }
 ]
 
