@@ -9,7 +9,7 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home,
-    
+
   },
   {
     path: '/about',
@@ -27,9 +27,20 @@ const routes = [
   {
     path: '/register',
     component: () => import('../views/register.vue')
-  },{
+  },
+  {
     path: '/login',
-    component: () =>  import('../views/login.vue')
+    component: () => import('../views/login.vue')
+  }, {
+    path: '/login',
+    component: () => import('../views/login.vue')
+  }, {
+    path: '/papercutting',
+    component: () => import('../views/papercuttingInstruction.vue')
+  },
+  {
+    path: '/index',
+    component: () => import('../views/index.vue')
   }
 ]
 
