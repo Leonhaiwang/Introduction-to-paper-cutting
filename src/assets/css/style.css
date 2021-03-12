@@ -48,7 +48,8 @@
     background: #efb327;
 }
 
-#banner .leftBtn, #banner .rightBtn {
+#banner .leftBtn,
+#banner .rightBtn {
     position: absolute;
     top: 50%;
     margin-top: -25px;
@@ -72,7 +73,8 @@
     right: 100px;
 }
 
-#banner:hover .leftBtn, #banner:hover .rightBtn {
+#banner:hover .leftBtn,
+#banner:hover .rightBtn {
     display: block;
 }
 
@@ -241,7 +243,8 @@
     background: rgba(124, 92, 93, 0.8);
 }
 
-.main .news .leftBtn, .main .news .rightBtn {
+.main .news .leftBtn,
+.main .news .rightBtn {
     position: absolute;
     width: 30px;
     height: 30px;
@@ -413,7 +416,8 @@
     color: #fff;
 }
 
-.main .cultureJ .lineL, .main .cultureJ .lineR {
+.main .cultureJ .lineL,
+.main .cultureJ .lineR {
     position: relative;
     top: -50%;
     width: 190px;
@@ -541,13 +545,17 @@
     background: rgba(14, 14, 14, 0.8);
 }
 
+.videoLeft {
+    /* margin-top: -45px; */
+}
+
 .main .showCulture .video {
     margin-top: 63px;
     float: left;
     width: 550px;
     height: 390px;
-    padding: 8px;
-    border: 1px solid #fff;
+    /* padding: 8px; */
+    /* border: 1px solid #fff; */
 }
 
 .main .showCulture .introduce {

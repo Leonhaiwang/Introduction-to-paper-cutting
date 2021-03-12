@@ -19,18 +19,21 @@
             <el-image :src="item.url"></el-image>
           </el-carousel-item>
         </el-carousel>
-        <div ref="lili" class="detail" >
+        <div ref="lili" class="detail">
           剪纸进课堂授课现场（摄影：郭晓声）
         </div>
       </div>
     </div>
-    <div class="bottomnews">
-
-    </div>
+    <div class="bottomnews"></div>
+    <Comment></Comment>
   </div>
 </template>
 <script>
+import Comment from "../components/comment";
 export default {
+  components: {
+    Comment: Comment
+  },
   data() {
     return {
       imgList: [
@@ -53,14 +56,14 @@ export default {
   },
   methods: {
     change() {
-      this.$refs.lili.innerHTML = "中阳剪纸出版成果（摄影：郭晓声）"
+      this.$refs.lili.innerHTML = "中阳剪纸出版成果（摄影：郭晓声）";
     }
   }
 };
 </script>
 <style scoped>
-.bottomnews{
-  height: 100px   ;
+.bottomnews {
+  height: 100px;
 }
 .detail {
   color: #fff;
@@ -87,7 +90,7 @@ export default {
   margin-bottom: 24px;
 }
 .body {
-  background: url("http://www.ihchina.cn/Public/static/themes/image/temp/png14.png") ;
+  background: url("http://www.ihchina.cn/Public/static/themes/image/temp/png14.png");
   display: flex;
   flex-direction: column;
   text-align: center;

@@ -35,10 +35,16 @@
         </div>
       </div>
     </div>
+    <Comment></Comment>
   </div>
 </template>
 <script>
-export default {};
+import Comment from "../components/comment";
+export default {
+  components: {
+    Comment: Comment
+  },
+}
 </script>
 <style scoped>
 body {

@@ -5,7 +5,7 @@
         <img class="swiperImg" :src="item.url"  />
       </el-carousel-item>
     </el-carousel>
-    <Button></Button>
+    <!-- <Button></Button> -->
     <Product></Product>
 
   </div>

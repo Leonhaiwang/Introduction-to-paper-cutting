@@ -7,8 +7,8 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home,
+    name: 'index',
+    component: () => import('../views/index.vue')
 
   },
   {
@@ -39,9 +39,42 @@ const routes = [
     component: () => import('../views/papercuttingInstruction.vue')
   },
   {
-    path: '/index',
-    component: () => import('../views/index.vue')
+    path: '/paperdetail',
+    component: () => import('../views/paperDetail.vue')
+  },
+  {
+    path: '/paperdetail1',
+    component: () => import('../views/paperDetail1.vue')
+  },
+  {
+    path: '/paperdetail2',
+    component: () => import('../views/paperDetail2.vue')
+  },
+  {
+    path: '/forum',
+    component: () => import('../views/forum.vue')
   }
+  ,
+  {
+    path: '/userset',
+    component: () => import('../views/userset.vue')
+  }
+  ,
+  {
+    path: '/aboutme',
+    component: () => import('../views/aboutme.vue')
+  },
+  {
+    path: '/questioncustomer',
+    component: () => import('../views/questioncustomer.vue')
+  },
+  {
+    path: '/questionlist',
+    component: () => import('../views/questionlist.vue')
+  }
+
+
+  
 ]
 
 const router = new VueRouter({
