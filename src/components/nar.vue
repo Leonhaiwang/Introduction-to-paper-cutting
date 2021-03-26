@@ -10,10 +10,11 @@
         router
       >
         <el-menu-item index="/">首页</el-menu-item>
-        <el-menu-item index="/news">民俗信仰</el-menu-item>
-        <el-menu-item index="/page">岁时节令</el-menu-item>
-        <el-menu-item index="/paperDetail">人生礼仪</el-menu-item>
         <el-menu-item index="/paperDetail2">神话传说</el-menu-item>
+        <el-menu-item index="/paperDetail3">人生礼仪</el-menu-item>
+        <el-menu-item index="/paperDetail1">民俗信仰</el-menu-item>
+        <el-menu-item index="/paperDetail4">岁时节令</el-menu-item>
+        <el-menu-item index="/news">最新新闻</el-menu-item>
         <el-menu-item index="/forum">论坛</el-menu-item>
         <el-menu-item index="/questioncustomer">问卷调查</el-menu-item>
           <el-menu-item index="/aboutme">关于我</el-menu-item>
@@ -56,7 +57,7 @@ export default {
 }
 .dropdown {
   position: relative;
-  left: 25%;
+  left: 20%;
   color: #fff;
   height: 60px;
   line-height: 60px;

@@ -116,7 +116,7 @@ export default {
 @import "../assets/css/prism.css";
 
 #comment-container{
-  width: 60%;
+  width: 52%;
   margin: 0 auto;
   margin-top: 20px;
 }

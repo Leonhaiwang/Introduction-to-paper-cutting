@@ -1,6 +1,6 @@
 <template>
   <div>
-    <el-carousel :interval="5000" arrow="hover" autoplay loop height="680px">
+    <el-carousel :interval="5000" arrow="hover" autoplay loop height="650px">
       <el-carousel-item v-for="item in imgList" :key="item.id">
         <img class="swiperImg" :src="item.url" />
       </el-carousel-item>
@@ -71,7 +71,7 @@
               <a href=""
                 ><div class="innerTop">
                   <img
-                    src="https://pics7.baidu.com/feed/8cb1cb1349540923775c39983f6d0a0db2de49dd.jpeg?token=1013b22e013b2a1d82ca671f518f96f9&s=FFB11B88C64232ED96B31C870300F088"
+                    src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1305691649,3394503659&fm=26&gp=0.jpg"
                     alt=""
                   />
                 </div>
@@ -96,7 +96,7 @@
             <div class="p-img">
               <a href=""
                 ><div class="innerTop"><img
-                  src="https://pics7.baidu.com/feed/d31b0ef41bd5ad6e4ab8c8662dd0c3ddb7fd3c9f.jpeg?token=dd1868e0bba1b67469dcc6dea02cfa39"
+                   src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1526050334,668356561&fm=26&gp=0.jpg"
                   alt=""
               /></div></a>
             </div>
@@ -125,12 +125,12 @@
           <li>
             <div class="img1 img">
               <img
-                src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.zhongguofeng.com%2Fuploads%2Fallimg%2Fyuansu%2F33%2Fv4titkuiymw.jpg&refer=http%3A%2F%2Fwww.zhongguofeng.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1617692686&t=d8535be6a9a1eba66933a7a7c73e5317"
+                 src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3720118980,3104573023&fm=26&gp=0.jpg"
                 alt=""
               />
               <div class="shade">
                 <h2>民俗信仰</h2>
-                <p>山西民居砖雕是广泛流传于山西省境内 的的汉族传统砖雕技艺</p>
+                <p>山西中阳剪纸是流传与千年的中国传统文化 展示了人民的形象智慧</p>
                 <a href="">详细>></a>
               </div>
             </div>
@@ -140,7 +140,7 @@
               <img src="../assets/img/index/cultureY2.png" alt="" />
               <div class="shade">
                 <h2>神话传说</h2>
-                <p>山西民居砖雕是广泛流传于山西省境内 的的汉族传统砖雕技艺</p>
+                <p>山西中阳剪纸是流传与千年的中国传统文化 展示了人民的形象智慧</p>
                 <a href="">详细>></a>
               </div>
             </div>
@@ -151,7 +151,7 @@
               />
               <div class="shade">
                 <h2>岁时节令</h2>
-                <p>山西民居砖雕是广泛流传于山西省境内 的的汉族传统砖雕技艺</p>
+                <p>山西中阳剪纸是流传与千年的中国传统文化 展示了人民的形象智慧</p>
                 <a href="">详细>></a>
               </div>
             </div>
@@ -164,7 +164,7 @@
               />
               <div class="shade">
                 <h2>人生礼仪</h2>
-                <p>山西民居砖雕是广泛流传于山西省境内 的的汉族传统砖雕技艺</p>
+                <p>山西中阳剪纸是流传与千年的中国传统文化 展示了人民的形象智慧</p>
                 <a href="">详细>></a>
               </div>
             </div>
@@ -189,7 +189,7 @@
                 loop="loop"
                 controls="controls"
                 autoplay="autoplay"
-                src="http://vfx.mtime.cn/Video/2019/03/21/mp4/190321153853126488.mp4"
+                src="http://123.56.54.54:8082/static/w3.mp4"
                 type="video/mp4"
               ></video>
             </div>
@@ -212,19 +212,19 @@
         <ul>
           <li>
             <div class="p-img">
-              <img src="../assets/img/index/cultureS1.png" alt="" />
+              <img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=234229902,216047232&fm=26&gp=0.jpg" alt="" />
             </div>
             <p>中阳剪纸</p>
           </li>
           <li>
             <div class="p-img">
-              <img src="../assets/img/index/cultureS2.png" alt="" />
+              <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1799981604,1110986180&fm=26&gp=0.jpg" alt="" />
             </div>
             <p>中阳剪纸</p>
           </li>
           <li>
             <div class="p-img">
-              <img src="../assets/img/index/cultureS3.png" alt="" />
+              <img src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=506219261,416157578&fm=15&gp=0.jpg" alt="" />
             </div>
             <p>中阳剪纸</p>
           </li>
@@ -238,7 +238,7 @@ export default {
   data() {
     return {
       imgList: [
-        { url: require("../assets/swiper03.jpg") },
+        { url: require("../assets/1.jpg") },
         { url: require("../assets/swiper02.jpg") }
       ]
     };
@@ -258,7 +258,7 @@ export default {
   color: #475669;
   font-size: 14px;
   opacity: 0.75;
-  line-height: 750px;
+  line-height: 650px;
   margin: 0;
 }
 

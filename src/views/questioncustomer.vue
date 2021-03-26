@@ -167,8 +167,6 @@ export default {
 @import "../assets/css/me.css";
 @import "../assets/css/tocbot.css";
 
-.wrapper{
-  /* margin-top: 40px; */
-}
+
 
 </style>

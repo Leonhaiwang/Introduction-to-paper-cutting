@@ -14,7 +14,7 @@
 }
 
 .banner.service {
-    background: url("../img/service/service-banner.png") no-repeat center/cover
+    background: url("../img/cultureY/cultureY-banner.png") no-repeat center/cover
 }
 
 .banner.line {
@@ -60,11 +60,13 @@
 /**/
 .main {
     margin-top: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 .main .mainL {
     float: left;
-    width: 294px;
+    width: 270px;
 }
 
 .main .mainL h2 {
@@ -403,9 +405,12 @@
 .main .mainR .content .company .box .item .p-img {
     float: left;
     width: 372px;
-    height: 100%;
+    height: 100px;
 }
-
+.p-img img{
+    height: 190px;
+    width: 340px;
+}
 .main .mainR .content .company .box .item .p-name {
     float: left;
     padding-left: 42px;

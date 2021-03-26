@@ -6,7 +6,7 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
+    path: '/index',
     name: 'index',
     component: () => import('../views/index.vue')
 
@@ -39,8 +39,12 @@ const routes = [
     component: () => import('../views/papercuttingInstruction.vue')
   },
   {
-    path: '/paperdetail',
-    component: () => import('../views/paperDetail.vue')
+    path: '/paperdetail3',
+    component: () => import('../views/paperDetail3.vue')
+  },
+  {
+    path: '/paperdetail4',
+    component: () => import('../views/paperDeatil4.vue')
   },
   {
     path: '/paperdetail1',
@@ -72,13 +76,14 @@ const routes = [
     path: '/questionlist',
     component: () => import('../views/questionlist.vue')
   }
-
-
-  
+  ,
+  {
+    path: '*',
+    redirect: '/index'
+  }
 ]
 
 const router = new VueRouter({
-  mode: 'history',
   base: process.env.BASE_URL,
   routes
 })
