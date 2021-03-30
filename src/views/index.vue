@@ -83,7 +83,7 @@
           <li>
             <div class="p-img" @click="get">
                
-                ><div class="innerTop" >
+                <div class="innerTop" >
                 <img
                   src="http://5b0988e595225.cdn.sohucs.com/images/20180911/edc38b44b4ea43318986f8df8a44924a.jpeg"
                   alt=""
@@ -95,7 +95,7 @@
           <li>
             <div class="p-img" @click="get">
               
-                ><div class="innerTop"><img
+                <div class="innerTop"><img
                    src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1526050334,668356561&fm=26&gp=0.jpg"
                   alt=""
               /></div>
