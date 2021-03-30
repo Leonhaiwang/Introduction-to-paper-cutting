@@ -57,7 +57,7 @@
              
             <td th:text="${blog.updateTime}">2021-03-02 09:45</td>
             <td>
-              <a href="#" th:href="@{/admin/blogs/{id}/input(id=${blog.id})}" class="ui mini teal basic button" @click="button">参与</a>
+              <a href="#" th:href="@{/admin/blogs/{id}/input(id=${blog.id})}" class="ui mini teal basic button" ick="@clbutton">参与</a>
               <!-- <a href="#" th:href="@{/admin/blogs/{id}/delete(id=${blog.id})}" class="ui mini red basic button">删除</a> -->
             </td>
           </tr>

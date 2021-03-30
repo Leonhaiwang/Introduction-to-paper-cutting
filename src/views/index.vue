@@ -48,13 +48,13 @@
               </p>
             </div>
             <ul>
-              <li><a href="">中阳剪纸成功申遗</a></li>
-              <li><a href="">中阳剪纸的内容也有相当丰富的文化内涵 </a></li>
-             <li><a href="">中阳剪纸成功申遗</a></li>
-              <li><a href="">中阳剪纸的内容也有相当丰富的文化内涵 </a></li>
+              <li @click="getinto"> <a>中阳剪纸成功申遗</a> </li>
+              <li @click="getinto" ><a >中阳剪纸的内容也有相当丰富的文化内涵 </a></li>
+             <li @click="getinto"> <a >中阳剪纸成功申遗</a></li>
+              <li @click="getinto"><a >中阳剪纸的内容也有相当丰富的文化内涵 </a></li>
               
-             <li><a href="">中阳剪纸成功申遗</a></li>
-              <li><a href="">中阳剪纸的内容也有相当丰富的文化内涵 </a></li>
+             <li @click="getinto"><a>中阳剪纸成功申遗</a></li>
+              <li @click="getinto"><a>中阳剪纸的内容也有相当丰富的文化内涵 </a></li>
             </ul>
           </div>
         </div>
@@ -67,8 +67,8 @@
         </div>
         <ul class="clear">
           <li>
-            <div class="p-img">
-              <a href=""
+            <div class="p-img" @click="get">
+              <a
                 ><div class="innerTop">
                   <img
                     src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1305691649,3394503659&fm=26&gp=0.jpg"
@@ -81,24 +81,24 @@
             <p>中阳剪纸非遗传承人</p>
           </li>
           <li>
-            <div class="p-img">
-              <a href=""
-                ><div class="innerTop">
+            <div class="p-img" @click="get">
+               
+                ><div class="innerTop" >
                 <img
                   src="http://5b0988e595225.cdn.sohucs.com/images/20180911/edc38b44b4ea43318986f8df8a44924a.jpeg"
                   alt=""
-              /></div></a>
+              /></div>
             </div>
             <h2>刘青云</h2>
             <p>中阳剪纸非遗传承人</p>
           </li>
           <li>
-            <div class="p-img">
-              <a href=""
+            <div class="p-img" @click="get">
+              
                 ><div class="innerTop"><img
                    src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1526050334,668356561&fm=26&gp=0.jpg"
                   alt=""
-              /></div></a>
+              /></div>
             </div>
             <h2>程英</h2>
             <p>中阳剪纸非遗传承人</p>
@@ -131,7 +131,7 @@
               <div class="shade">
                 <h2>民俗信仰</h2>
                 <p>山西中阳剪纸是流传与千年的中国传统文化 展示了人民的形象智慧</p>
-                <a href="">详细>></a>
+                <a @click="n1">详细>></a>
               </div>
             </div>
           </li>
@@ -141,7 +141,7 @@
               <div class="shade">
                 <h2>神话传说</h2>
                 <p>山西中阳剪纸是流传与千年的中国传统文化 展示了人民的形象智慧</p>
-                <a href="">详细>></a>
+                <a @click="n2">详细>></a>
               </div>
             </div>
             <div class="img2 img">
@@ -152,20 +152,20 @@
               <div class="shade">
                 <h2>岁时节令</h2>
                 <p>山西中阳剪纸是流传与千年的中国传统文化 展示了人民的形象智慧</p>
-                <a href="">详细>></a>
+                <a  @click="n3">详细>></a>
               </div>
             </div>
           </li>
           <li>
             <div class="img1 img">
-              <img
+              <img 
                 src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1017590076,512771555&fm=26&gp=0.jpg"
                 alt=""
               />
               <div class="shade">
                 <h2>人生礼仪</h2>
                 <p>山西中阳剪纸是流传与千年的中国传统文化 展示了人民的形象智慧</p>
-                <a href="">详细>></a>
+                <a @click="n4">详细>></a>
               </div>
             </div>
           </li>
@@ -242,6 +242,43 @@ export default {
         { url: require("../assets/swiper02.jpg") }
       ]
     };
+  },
+  methods:{
+    getinto(){
+       this.$router.push({
+        //核心语句
+        path:`/page1`
+      });
+    },get(){
+       this.$router.push({
+        //核心语句
+        path:`/page2`
+      });
+    },
+    n1(){
+       this.$router.push({
+        //核心语句
+        path:`paperDetail1`
+      });
+    },
+     n2(){
+       this.$router.push({
+        //核心语句
+        path:`paperDetail2`
+      });
+    },
+     n3(){
+       this.$router.push({
+        //核心语句
+        path:`paperDetail3`
+      });
+    },
+     n4(){
+       this.$router.push({
+        //核心语句
+        path:`paperDetail4`
+      });
+    },
   }
 };
 </script>
