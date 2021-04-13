@@ -37,11 +37,11 @@ export default {
   data() {
     return {
       imgList: [
-        {
-          url:
-            "http://www.ihchina.cn/Uploads/Picture/2019/12/29/s5e08822d62f2b.jpg",
-          p: "AAAAAAAAAAAAAAAaa"
-        },
+        // {
+        //   url:
+        //     "http://www.ihchina.cn/Uploads/Picture/2019/12/29/s5e08822d62f2b.jpg",
+        //   p: "AAAAAAAAAAAAAAAaa"
+        // },
         {
           url:
             "http://www.ihchina.cn/Uploads/Picture/2019/12/29/s5e08822d7d2b1.jpg",

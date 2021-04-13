@@ -17,10 +17,10 @@
           <span>ZhongYang PaperCutting</span>
         </h2>
         <div class="tab">
-          <a href="" class="cur">神话传说</a>
-          <a href="">人生礼仪</a>
-          <a href="">民俗信仰</a>
-          <a href="">岁时节令</a>
+          <a  class="cur">神话传说</a>
+          <a >人生礼仪</a>
+          <a >民俗信仰</a>
+          <a >岁时节令</a>
         </div>
       </div>
       <div class="mainR">
@@ -37,10 +37,10 @@
           </div>
           <div class="company">
             <div class="clear companyT">
-              <a href="" class="cur">英雄神话</a>
-              <a href="">动画人物</a>
-              <a href="">神佛神话</a>
-              <a href="">创世神话</a>
+              <a  class="cur">英雄神话</a>
+              <a>动画人物</a>
+              <a >神佛神话</a>
+              <a >创世神话</a>
             </div>
             <div class="box">
               <div class="boxC">

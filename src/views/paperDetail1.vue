@@ -17,10 +17,10 @@
           <span>Cultural elite</span>
         </h2>
         <div class="tab">
-          <a href="">神话传说</a>
-          <a href="">人生礼仪</a>
-          <a href="" class="cur">民俗信仰</a>
-          <a href="">岁时节令</a>
+          <a  >神话传说</a>
+          <a  >人生礼仪</a>
+          <a   class="cur">民俗信仰</a>
+          <a  >岁时节令</a>
         </div>
       </div>
       <div class="mainR">
@@ -30,7 +30,7 @@
             <p>
               当前位置： 
               <a href="list_publicC.html">民俗信仰</a>
-              <a href="">中阳剪纸</a>
+              <a  >中阳剪纸</a>
             </p>
           </div>
           <div class="opinion">
@@ -52,7 +52,7 @@
                 <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1772810623,2494004209&fm=26&gp=0.jpg" alt="" />
               </div>
               <div class="p-name">
-                <a href="">
+                <a  >
                   <h2>民俗文化展现出强劲的动力</h2>
                   <p>
                     民间剪纸，又称剪花、刻纸、窗花，是中国民间传统的装饰艺术之一。i它最能体现自身本色精神的作品，大多保留在穷乡僻壤的山区农村，民间剪纸主要以剪刀和红、绿等颜色鲜艳的彩纸，
@@ -65,7 +65,7 @@
                 <img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1892498038,2346910370&fm=26&gp=0.jpg" alt="" />
               </div>
               <div class="p-name">
-                <a href="">
+                <a  >
                   <h2>中阳剪纸的工艺特点
                   </h2>
                   <p>
@@ -79,7 +79,7 @@
                 <img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=589307991,2567940564&fm=15&gp=0.jpg" alt="" />
               </div>
               <div class="p-name">
-                <a href="">
+                <a  >
                   <h2>中阳剪纸的工艺特点
                   </h2>
                   <p>
@@ -93,7 +93,7 @@
                 <img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3151224867,421820031&fm=26&gp=0.jpg" alt="" />
               </div>
               <div class="p-name">
-                <a href="">
+                <a  >
                   <h2>中阳剪纸的工艺特点
                   </h2>
                   <p>
@@ -107,7 +107,7 @@
                 <img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2851142569,2779146824&fm=26&gp=0.jpg" alt="" />
               </div>
               <div class="p-name">
-                <a href="">
+                <a  >
                   <h2>中阳剪纸的工艺特点
                   </h2>
                   <p>

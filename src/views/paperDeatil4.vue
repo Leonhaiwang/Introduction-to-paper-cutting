@@ -3,7 +3,7 @@
     <div class="banner service">
       <div class="shade">
         <h2>
-          传统手艺 文化传承
+          岁令时节 传统文化
           <span>
 Inheritance of traditional handicraft culture</span>
         </h2>
@@ -18,10 +18,10 @@ Inheritance of traditional handicraft culture</span>
           <span>ZhongYang PaperCutting</span>
         </h2>
         <div class="tab">
-          <a href="" class="cur">神话传说</a>
-          <a href="" >人生礼仪</a>
-          <a href="">民俗信仰</a>
-          <a href="">岁时节令</a>
+          <a   class="cur">神话传说</a>
+          <a   >人生礼仪</a>
+          <a  >民俗信仰</a>
+          <a  >岁时节令</a>
           
         </div>
       </div>
@@ -37,10 +37,10 @@ Inheritance of traditional handicraft culture</span>
           </div>
           <div class="company">
             <div class="clear companyT">
-              <a href="" class="cur">英雄神话</a>
-              <a href="">动画人物</a>
-              <a href="">神佛神话</a>
-              <a href="">创世神话</a>
+              <a   class="cur">英雄神话</a>
+              <a  >动画人物</a>
+              <a  >神佛神话</a>
+              <a  >创世神话</a>
             </div>
             <div class="box">
               <div class="boxC">
@@ -53,7 +53,7 @@ Inheritance of traditional handicraft culture</span>
                     <p>
                      孩子诞生是家庭中的一件大喜事，作长辈的都要为这新生命庆贺一番。在中阳当地，不管是城镇还是农村中，只要家里有了一个新生命，家中的女性都要自己或者请人剪一幅红色剪纸窗花贴在门上，一般就是生男孩贴长方形剪纸、生女孩贴菱形剪纸纹样，这样做一为报喜
                     </p>
-                    <a href="">详细>></a>
+                    <a  >详细>></a>
                   </div>
                 </div>
                 <div class="item clear">
@@ -66,7 +66,7 @@ Inheritance of traditional handicraft culture</span>
                        中阳剪纸的村名们通过中阳剪纸文化振兴了家乡的文化，鼓了腰包，多了笑容
                       通过对中国传统文化传承,是......
                     </p>
-                    <a href="">详细>></a>
+                    <a  >详细>></a>
                   </div>
                 </div>
                 <div class="item clear">
@@ -78,7 +78,7 @@ Inheritance of traditional handicraft culture</span>
                     <p>
                      孩子诞生是家庭中的一件大喜事，作长辈的都要为这新生命庆贺一番。在中阳当地，不管是城镇还是农村中，只要家里有了一个新生命，家中的女性都要自己或者请人剪一幅红色剪纸窗花贴在门上，一般就是生男孩贴长方形剪纸、生女孩贴菱形剪纸纹样，这样做一为报喜
                     </p>
-                    <a href="">详细>></a>
+                    <a  >详细>></a>
                   </div>
                 </div>
                 <div class="item clear">
@@ -90,7 +90,7 @@ Inheritance of traditional handicraft culture</span>
                     <p>
                      孩子诞生是家庭中的一件大喜事，作长辈的都要为这新生命庆贺一番。在中阳当地，不管是城镇还是农村中，只要家里有了一个新生命，家中的女性都要自己或者请人剪一幅红色剪纸窗花贴在门上，一般就是生男孩贴长方形剪纸、生女孩贴菱形剪纸纹样，这样做一为报喜
                     </p>
-                    <a href="">详细>></a>
+                    <a  >详细>></a>
                   </div>
                 </div>
                 <div class="item clear">
@@ -102,7 +102,7 @@ Inheritance of traditional handicraft culture</span>
                     <p>
                      孩子诞生是家庭中的一件大喜事，作长辈的都要为这新生命庆贺一番。在中阳当地，不管是城镇还是农村中，只要家里有了一个新生命，家中的女性都要自己或者请人剪一幅红色剪纸窗花贴在门上，一般就是生男孩贴长方形剪纸、生女孩贴菱形剪纸纹样，这样做一为报喜
                     </p>
-                    <a href="">详细>></a>
+                    <a  >详细>></a>
                   </div>
                 </div>
               </div>
