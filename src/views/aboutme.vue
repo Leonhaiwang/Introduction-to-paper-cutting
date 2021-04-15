@@ -5,13 +5,13 @@
 
       <div class="ui stackable grid">
         <div class="eleven wide column">
-          <div class="ui segment">
-            <img src="https://unsplash.it/800/600?image=1005" alt="" class="ui rounded image">
+          <div class="ui segment  ininin">
+            <img  src="../assets/22222.jpg" alt="" class="ui rounded image">
           </div>
         </div>
         <div class="five wide column">
           <div class="ui attached segment">
-            <p class="m-text">席晨阳席晨阳席晨阳席晨阳席晨阳席晨阳席晨阳席晨阳席晨阳席晨阳席晨阳席晨阳席晨阳席晨阳席晨阳席晨阳席晨阳席晨阳席晨阳席晨阳席晨阳席晨阳席晨阳席晨阳席晨阳席晨阳席晨阳 .</p>
+            <p class="m-text">席晨阳 .</p>
             <p class="m-text">热爱编程，喜欢折腾，正在探索高效学习编程技术的方法...</p>
           </div>
           <div class="ui bottom attached segment">
@@ -39,5 +39,16 @@ export default {
 @import "https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css";
 .wrapper{
  height: 830px;
+}
+.ininin{
+  display: flex;
+  justify-content: center;
+}
+.segment > img{
+  height: 650px;
+}
+.white-space {
+             white-space:pre
+
 }
 </style>
