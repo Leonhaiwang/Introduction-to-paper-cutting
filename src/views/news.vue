@@ -20,7 +20,7 @@
           </el-carousel-item>
         </el-carousel>
         <div ref="lili" class="detail">
-          剪纸进课堂授课现场（摄影：郭晓声）
+          剪纸进课堂授课现场
         </div>
       </div>
     </div>
